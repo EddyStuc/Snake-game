@@ -57,9 +57,9 @@ function addSegments() {
 }
 
 function speedUp() {
- if (snakeBody.length < 2) {
-   SNAKE_SPEED = 2;
- } else {
-   SNAKE_SPEED = snakeBody.length;
- }
+  if (snakeBody.length < 2) {
+    SNAKE_SPEED = 2;
+  } else {
+    SNAKE_SPEED = snakeBody.length;
+  }
 }
